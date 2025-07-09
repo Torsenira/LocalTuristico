@@ -66,7 +66,7 @@ img{
     padding: 20px;
 }
 
-.container-apresentacao-principal{
+.container-main{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -74,7 +74,7 @@ img{
     margin-bottom: 40px;
 }
 
-.apresentacao {
+.main {
     color: var(--accent-orange);
     font-weight: bold;
     font-size: 16px;
@@ -85,7 +85,7 @@ img{
      margin-bottom: 24px;
 }
 
-.subtitulo{
+.subtitle{
     font-size: 16px;
     font-style: italic;
 }
@@ -93,10 +93,10 @@ img{
 main{
     margin-bottom: 40px;
 }
-.apresentacao-sessao{
+.main-section{
     margin-top: 64px;
 }
-.apresentacao-sessao > p{
+.main-section > p{
     margin-bottom: 64px;
     
 }
@@ -113,6 +113,7 @@ ul{
 
 li{
     font-weight: bold;
+    margin-left: 20px;
 }
 
 li:first-child{
@@ -127,7 +128,7 @@ ul li:nth-child(3){
     color: var(--accent-orange);
 }
 
-.conclusao{
+.conclusion{
     margin-top: 40px;
     text-align: center;
     color: var(--text-secondary);
