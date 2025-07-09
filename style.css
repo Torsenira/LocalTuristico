@@ -1,0 +1,142 @@
+:root {
+    --background-default: #F5F4F0;
+    --border-primary: #D9D9D9;
+
+    --text-primary: #1B1B1B;
+    --text-secondary: #333333;
+    --text-tertiary: #696969;
+    --text-headline: #E1624F;
+
+    --accent-blue: #0C51A7;
+    --accent-orange: #E95E10;
+    --accent-pink: #E5245E;
+    --accent-purple: #591B98;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    margin-top: 40px;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+body {
+    flex-direction: column;
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+p {
+    font-size: 16px;
+}
+
+img{
+    display: block;
+    width: 100%;
+    border-radius: 28px;
+}
+
+
+.container {
+    max-width: 1120px;
+    margin: auto;
+    padding: 20px;
+}
+
+.container-apresentacao-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80px;
+    margin-bottom: 40px;
+}
+
+.apresentacao {
+    color: var(--accent-orange);
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.main-image{
+     margin-bottom: 24px;
+}
+
+.subtitulo{
+    font-size: 16px;
+    font-style: italic;
+}
+
+main{
+    margin-bottom: 40px;
+}
+.apresentacao-sessao{
+    margin-top: 64px;
+}
+.apresentacao-sessao > p{
+    margin-bottom: 64px;
+    
+}
+
+.img-busan{
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+ul{
+    margin-top: 1em;
+    margin-bottom: 48px;
+}
+
+li{
+    font-weight: bold;
+}
+
+li:first-child{
+    color: var(--accent-blue);
+}
+
+ul li:nth-child(2) {
+    color: var(--accent-pink);
+}
+
+ul li:nth-child(3){
+    color: var(--accent-orange);
+}
+
+.conclusao{
+    margin-top: 40px;
+    text-align: center;
+    color: var(--text-secondary);
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    font-weight: bold;
+}
